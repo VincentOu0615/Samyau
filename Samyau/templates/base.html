@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+    <title>三友建築置業有限公司</title>
+</head>
+
+<body>
+    <div>現在時間是：{{ current_date }}</div>
+    <!-- nav -->
+    {% block nav %}
+    <div>位置： >> </div>
+    {% endblock %}
+
+
+    <!-- content -->
+    {% block content %} {% endblock %}
+
+    
+    <!-- footer -->
+    {% block footer %}
+    <hr>
+    <p>@ Copyright</p>
+    {% endblock %}
+</body>
+
+</html>
